@@ -1,0 +1,21 @@
+@import url(./resize.css);
+
+
+/* 自定义 */
+
+/* 高宽改为边框模式 */
+html,body,div,ul,li,ol,h1,h2,h3,h4,h5,h6,input,textarea,select,p,dl,dt,dd,a,img,button,form,table,th,tr,td,tbody,article,
+aside, details,figcaption,figure,footer,header,hgroup, menu,nav,section {
+    box-sizing: border-box;
+}
+
+/* 清除图片的底端空白间距 */
+img {
+    vertical-align: top;
+}
+button,option {
+    cursor: pointer;
+}
+a {
+    font-family: none;
+}

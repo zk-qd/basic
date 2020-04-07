@@ -30,7 +30,6 @@
             }
         }
     }
-
     if (!dpr && !scale) {
         var isAndroid = win.navigator.appVersion.match(/android/gi);
         var isIPhone = win.navigator.appVersion.match(/iphone/gi);
@@ -50,7 +49,6 @@
         }
         scale = 1 / dpr;
     }
-
     docEl.setAttribute('data-dpr', dpr);
     if (!metaEl) {
         metaEl = doc.createElement('meta');
@@ -74,7 +72,6 @@
         docEl.style.fontSize = rem + 'px';
         flexible.rem = win.rem = rem;
     }
-
     win.addEventListener('resize', function () {
         clearTimeout(tid);
         tid = setTimeout(refreshRem, 300);
